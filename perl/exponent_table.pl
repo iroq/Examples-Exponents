@@ -10,7 +10,6 @@ use bigint;
 my %computed;
 for my $base ( 2 .. 30 ) {
   for my $divisor ( 2 .. 30 ) {
-    my @matches;
     for my $multiple ( 1 .. MAX_VAL ) {
       my $exponent = $base**$multiple;
       last if $exponent > MAX_VAL;
