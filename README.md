@@ -5,6 +5,8 @@ Exponents and their divisors in many languages.
 
 This repository contains a bunch of ways to implement the following behaviour in various languages.
 
-- Given a range between  `1` and `MAX_VALUE` that yields `I`
-- Compute all exponents `BASE ^ I` where `(BASE ^ I) < MAX_VALUE and (BASE ^ I) divisible by DIVISOR`
+## The task
 
+For all numbers between `1` and `MAX`, display their exponents that are less or equal than `MAXVALUE` and divisible by any of the numbers between `1` and `MAX`.
+
+For test output, assume `MAX=30` and `MAXVALUE=1000`.
